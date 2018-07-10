@@ -1,4 +1,4 @@
-
+show_message("THIS MESSAGE GIT TEST");
 globalvar   game_width, game_height, camera_zoom, camera_vwview, camera_vhview, camera_shake,
             game_tryTotal, game_campStage,
             game_progressMax, game_progress, cycle_dayMax, cycle_day, cycle_alphaMax,
