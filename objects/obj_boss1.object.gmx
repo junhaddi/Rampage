@@ -34,8 +34,8 @@ enemy_minRange = 0;
 enemy_hp = 120;
 enemy_damage = 2;
 
-wave_speed = 0;
-wave_min = 0;
+wave_speed = 10;
+wave_min = 1;
 </string>
           </argument>
         </arguments>

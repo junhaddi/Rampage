@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//room_goto_next();
+            <string>room_goto_next();
 text_position = 1;
 text_delay = 6;
 alarm[0] = text_delay;

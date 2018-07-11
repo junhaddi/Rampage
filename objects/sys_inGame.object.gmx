@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>
+            <string>repeat(10){scr_bossSpawn(0, irandom(3));}
 /// Reset
 scr_gameReset();
 
