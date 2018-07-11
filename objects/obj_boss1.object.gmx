@@ -29,12 +29,12 @@
 event_inherited();
 
 
-enemy_speed = 1;
+enemy_speed = 2;
 enemy_minRange = 0;
 enemy_hp = 120;
 enemy_damage = 2;
 
-wave_speed = 10;
+wave_speed = 20;
 wave_min = 1;
 </string>
           </argument>

@@ -25,7 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>repeat(10){scr_bossSpawn(0, irandom(3));}
+            <string>repeat(3){scr_bossSpawn(0, irandom(3));}
+repeat(3){scr_bossSpawn(1, irandom(3));}
+repeat(3){scr_bossSpawn(2, irandom(3));}
+repeat(5){instance_create(0, 0, obj_melee2)};
 /// Reset
 scr_gameReset();
 
