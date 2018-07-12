@@ -5,7 +5,7 @@
 obj_chr.chr_shield = 1;
 
 obj_chr.alarm[5] = argument0;
-obj_chr.alarm[7] = room_speed * 25; 
+obj_chr.alarm[7] = room_speed * 30; 
 
 
 scr_camera_zoomIn(1.5);
