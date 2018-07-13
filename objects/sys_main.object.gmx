@@ -151,9 +151,9 @@ draw_set_alpha(0.4);
 draw_rectangle(60, 30, 580, 300, 0);
 draw_set_alpha(1);
 
-draw_set_color(c_gray);
+draw_set_color(c_yellow);
 draw_text_transformed(room_width / 6, 70, chr(34) + "준하가 뭘 주나" + chr(34), 1.5, 1.5, 0);
-draw_set_color(c_white);
+draw_set_color(c_black);
 draw_text_transformed(room_width / 6 + 4, 70 + 4, chr(34) + "준하가 뭘 주나" + chr(34), 1.5, 1.5, 0);
 
 draw_set_color(c_white)

@@ -23,7 +23,6 @@
       <sounds name="inGame">
         <sound>sound\sfx_item</sound>
         <sounds name="Character">
-          <sound>sound\sfx_chr_move</sound>
           <sound>sound\sfx_chr_attack1</sound>
           <sound>sound\sfx_chr_attack2</sound>
           <sound>sound\sfx_chr_attack3</sound>

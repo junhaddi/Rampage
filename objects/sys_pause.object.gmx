@@ -200,7 +200,7 @@ else
 {
     progress_text = "DAY " + string(cycle_day + 1);
 }
-draw_text_transformed(game_width / 2, game_height / 2 + 32, progress_text + " | Left " + string(enemy_number), 0.65, 0.65, 0);
+draw_text_transformed(game_width / 2, game_height / 2 + 32, progress_text + " | LEFT " + string(enemy_number), 0.65, 0.65, 0);
 </string>
           </argument>
         </arguments>
