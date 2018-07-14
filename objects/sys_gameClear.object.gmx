@@ -77,7 +77,7 @@ if (image_alpha &lt; 1)
 }
 else
 {
-    audio_stop_sound(bgm_inGame1);
+    audio_stop_sound(bgm_inGame);
     room_goto_next();
 }
 </string>

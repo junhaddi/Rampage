@@ -131,6 +131,7 @@ click_o = 1;
 /// Resume
 if (device_mouse_check_button_pressed(0, mb_left) &amp;&amp; click_o)
 {
+    audio_play_sound(sfx_click, 0, 0);
     instance_destroy();
 }
 </string>

@@ -28,7 +28,7 @@
             <string>
 /// Pause
 instance_deactivate_all(1);
-audio_stop_sound(bgm_inGame1);
+audio_stop_sound(bgm_inGame);
 
 
 /// Touch Delay
@@ -88,6 +88,7 @@ click_o = 1;
 /// Main Menu
 if ((device_mouse_check_button_pressed(0, mb_left) || keyboard_check_pressed(vk_backspace)) &amp;&amp; click_o)
 {
+    audio_play_sound(sfx_click, 0, 0);
     room_goto(rm_main);
 }
 </string>

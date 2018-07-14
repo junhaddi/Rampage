@@ -5,7 +5,11 @@
   <origname>sound\audio\sfx_story2.wav</origname>
   <effects>0</effects>
   <volume>
+<<<<<<< .merge_file_a15248
     <volume>0.63</volume>
+=======
+    <volume>0.76</volume>
+>>>>>>> .merge_file_a06392
   </volume>
   <pan>0</pan>
   <bitRates>

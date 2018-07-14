@@ -8,6 +8,8 @@
   <sounds name="sound">
     <sounds name="BGM">
       <sound>sound\bgm_inGame1</sound>
+      <sound>sound\bgm_inGame2</sound>
+      <sound>sound\bgm_inGame3</sound>
     </sounds>
     <sounds name="SFX">
       <sound>sound\sfx_click</sound>
