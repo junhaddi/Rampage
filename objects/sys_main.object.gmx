@@ -47,6 +47,7 @@ background_hspeed[2] = -1;
 
 
 /// Sound
+audio_play_sound(bgm_inGame2, 0, 1);
 sfx_chr_select = noone;
 
 
@@ -151,13 +152,13 @@ draw_set_alpha(0.4);
 draw_rectangle(60, 30, 580, 300, 0);
 draw_set_alpha(1);
 
-draw_set_color(c_gray);
+draw_set_color(c_blue);
 draw_text_transformed(room_width / 6, 70, chr(34) + "준하가 뭘 주나" + chr(34), 1.5, 1.5, 0);
-draw_set_color(c_white);
+draw_set_color(c_aqua);
 draw_text_transformed(room_width / 6 + 4, 70 + 4, chr(34) + "준하가 뭘 주나" + chr(34), 1.5, 1.5, 0);
 
 draw_set_color(c_white)
-draw_text(150, 200, "총괄/개발#강준하");
+draw_text(150, 200, "총괄#강준하");
 draw_text(320, 200, "디자이너#유승준");
 draw_text(490, 200, "디자이너#최석진");
 

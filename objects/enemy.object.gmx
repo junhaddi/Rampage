@@ -60,6 +60,7 @@ alarm[0] = 1;
             <string>
 /// Play Sound
 rand_sound = choose(0, 1, 2);
+
 if (rand_sound == 0)
 {
     audio_play_sound(sfx_damage1, 0, 0);
@@ -156,6 +157,7 @@ else
     }
     path_end();
 }
+
 scr_wave(wave_speed, wave_min);
 
 

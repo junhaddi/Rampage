@@ -55,7 +55,7 @@ event_inherited();
 
 
 /// Enemy Effect
-if (enemy_hp &lt;= 50 &amp;&amp; alarm[2] == -1)
+if (enemy_hp &lt;= 30 &amp;&amp; alarm[2] == -1)
 {
     alarm[2] = 5;   
 }

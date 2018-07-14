@@ -27,8 +27,6 @@
             <kind>1</kind>
             <string>
 depth = -y;
-
-
 image_speed = 0.2;
 
 

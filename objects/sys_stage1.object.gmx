@@ -29,7 +29,7 @@
 /// Setting
 cycle_dayMax = 2;
 
-cycle_dayLength = 40;
+cycle_dayLength = 1//40;
 cycle_nightLength = 15;
 
 

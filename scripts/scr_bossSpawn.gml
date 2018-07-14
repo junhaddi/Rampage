@@ -21,7 +21,10 @@ switch(argument0)
 switch(argument1)
 {
     case 0:
-        instance_create(irandom(room_width), 0, boss_name);
+        repeat(2)
+        {
+            instance_create(irandom(room_width), 0, boss_name);
+        }
         break;
         
     case 1:

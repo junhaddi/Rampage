@@ -319,6 +319,7 @@ event_inherited();
 scr_chr_state();
 
 scr_chr_move(chr_speed);
+
 scr_wave(10, 0.8);
 
 scr_chr_attack();

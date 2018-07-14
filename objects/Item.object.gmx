@@ -28,8 +28,8 @@
             <string>
 /// Destroy Time
 destroy_timeMax = room_speed * 30;
-alarm[0] = destroy_timeMax;
 
+alarm[0] = destroy_timeMax;
 alarm[1] = destroy_timeMax / 1.5;
 </string>
           </argument>

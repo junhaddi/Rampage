@@ -29,7 +29,7 @@
 event_inherited();
 
 
-text = "마지막 거점인 도시에 도착했습니다!#미세먼지 때문에 더더더욱 미쳐 날뜁니다!";
+text = "마지막 거점인 도시에 도착했습니다!#답답한 도심에서 더더더욱 미쳐 날뜁니다!";
 picture = spr_story4;
 </string>
           </argument>

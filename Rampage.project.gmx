@@ -191,6 +191,7 @@
       </scripts>
       <scripts name="Enemy">
         <script>scripts\scr_enemy_shoot.gml</script>
+        <script>scripts\scr_boss_skill1.gml</script>
       </scripts>
     </scripts>
     <scripts name="Effect">
@@ -230,12 +231,12 @@
           <object>objects\obj_main_camp</object>
         </objects>
         <objects name="Cell2">
-          <object>objects\obj_main_start</object>
-          <object>objects\obj_main_back</object>
+          <object>objects\obj_selectArrow</object>
           <object>objects\obj_selectClass1</object>
           <object>objects\obj_selectClass2</object>
           <object>objects\obj_selectClass3</object>
-          <object>objects\obj_selectArrow</object>
+          <object>objects\obj_main_back</object>
+          <object>objects\obj_main_start</object>
         </objects>
       </objects>
       <objects name="InGame">
@@ -349,7 +350,6 @@
         <object>objects\obj_outside</object>
       </objects>
     </objects>
-    <object>objects\DEBUGER</object>
   </objects>
   <rooms name="rooms">
     <rooms name="Intro">

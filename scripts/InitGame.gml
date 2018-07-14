@@ -40,7 +40,7 @@ surface_resize(application_surface, game_width, game_height);
 
 
 /// Cycle
-cycle_alphaMax = 0.96;
+cycle_alphaMax = 0.95;
 
 
 /// Character

@@ -40,6 +40,7 @@ switch(chr_class)
         break;
 }
 
+
 with(obj_outside)
 {
     save_camera_zoom = camera_zoom;

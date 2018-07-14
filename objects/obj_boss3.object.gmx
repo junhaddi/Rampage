@@ -29,18 +29,42 @@
 event_inherited();
 
 
-enemy_speed = 2;
-enemy_minRange = 100;
+enemy_speed = 3;
+enemy_minRange = 0;
 enemy_hp = 120;
 enemy_damage = 2;
 
 wave_speed = 15;
 wave_min = 0.8;
 
-aiming = 0;
-aim_dir = 0;
+attack_circle = 0;
+alarm[2] = 1;
 
 image_speed = 0.06;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="2" enumb="2">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>other</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>
+scr_boss_skill1(2);
 </string>
           </argument>
         </arguments>
@@ -90,32 +114,6 @@ scr_enemy_shoot(1, 20);
             <kind>1</kind>
             <string>
 event_inherited();
-
-
-if (aiming)
-{
-    /// Shoot Ready
-    if (alarm[1] == -1)
-    {
-        alarm[1] = 10;
-    }
-    
-    /// Enemy xDirection
-    if (x &lt; obj_chr.x)
-    {
-        instance_xdir = 1;
-    }
-    else
-    {
-        instance_xdir = -1;
-    }
-    aim_dir = point_direction(x, y, obj_chr.x, obj_chr.y);
-}
-else
-{
-    /// Cancel Attack
-    alarm[1] = 0;
-}
 </string>
           </argument>
         </arguments>

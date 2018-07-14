@@ -26,9 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>
-/// Create Effect
-scr_eft_smoke(x, y, 20);
-
 /// Create Item
 var r = irandom(3);
 switch(r)
@@ -46,6 +43,9 @@ switch(r)
         instance_create(x, y, obj_heal);
         break;
 }
+
+/// Create Effect
+scr_eft_smoke(x, y, 20);
 </string>
           </argument>
         </arguments>

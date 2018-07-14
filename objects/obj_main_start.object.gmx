@@ -44,7 +44,8 @@ if (sys_main.click_o == 0)
             break;
     }
     
-    /// Play Sound
+    /// Sound
+    audio_stop_sound(bgm_inGame2);
     audio_play_sound(sfx_click, 0, 0);
 }
 </string>
