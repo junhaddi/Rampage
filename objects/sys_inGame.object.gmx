@@ -62,7 +62,21 @@ mp_grid_add_instances(enemy_grid, obj_block, 0);
 
 
 /// Play BGM
-audio_play_sound(bgm_inGame1, 0, 1);
+switch(game_campStage)
+{
+    case 0:
+        bgm_inGame = bgm_inGame1;
+        break;
+
+    case 1:
+        bgm_inGame = bgm_inGame2;
+        break;
+        
+    case 2:
+        bgm_inGame = bgm_inGame3;
+        break;
+}
+audio_play_sound(bgm_inGame, 0, 1);
 
 
 /// Create

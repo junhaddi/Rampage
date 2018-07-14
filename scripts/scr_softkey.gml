@@ -50,6 +50,7 @@ for(var i = 0; i < key_number; i++)
         /// Pause Button
         if (softkey_pause)
         {
+            audio_play_sound(sfx_click, 0, 0);
             instance_create(0, 0, sys_pause);
         }
     }

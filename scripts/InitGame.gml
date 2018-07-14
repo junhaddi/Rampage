@@ -13,7 +13,8 @@ globalvar   game_width, game_height, camera_zoom, camera_vwview, camera_vhview, 
             stick_dir, stick_move, stick_x, stick_y,
             stick_dirAtk, stick_moveAtk, stick_xAtk, stick_yAtk,
                         
-            enemy_number, enemy_boss, enemy_grid;
+            enemy_number, enemy_boss, enemy_grid,
+            bgm_inGame;
 
 
 //////////////////////////////////////////////////////////////////////

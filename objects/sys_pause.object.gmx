@@ -66,7 +66,7 @@ alarm[0] = room_speed;
 
 
 /// Pause BGM
-audio_pause_sound(bgm_inGame1); 
+audio_pause_sound(bgm_inGame); 
 </string>
           </argument>
         </arguments>
@@ -91,7 +91,7 @@ audio_pause_sound(bgm_inGame1);
             <kind>1</kind>
             <string>
 instance_activate_all();
-audio_resume_sound(bgm_inGame1); 
+audio_resume_sound(bgm_inGame); 
 </string>
           </argument>
         </arguments>
@@ -142,6 +142,7 @@ click_o = 1;
 /// Resume
 if ((device_mouse_check_button_pressed(0, mb_left) || keyboard_check_pressed(vk_backspace)) &amp;&amp; click_o)
 {
+    audio_play_sound(sfx_click, 0, 0);
     instance_destroy();
 }
 </string>
