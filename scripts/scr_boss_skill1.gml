@@ -1,5 +1,6 @@
 ///scr_boss_skill1(skill_delay)
 
+
 attack_circle = (attack_circle + 10) mod 360;
 
 var a = instance_create(x, y, obj_bulletEnemy1);

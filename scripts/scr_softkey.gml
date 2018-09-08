@@ -58,4 +58,4 @@ for(var i = 0; i < key_number; i++)
 
 scr_stickMove(stick_device, 70, 10);
 scr_stickAtk(stick_deviceAtk, 70, 10);
-scr_buttonSkill(button_skill, chr_class);
+scr_buttonSkill(chr_class);

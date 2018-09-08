@@ -9,7 +9,6 @@
     <sounds name="BGM">
       <sound>sound\bgm_inGame1</sound>
       <sound>sound\bgm_inGame2</sound>
-      <sound>sound\bgm_inGame3</sound>
     </sounds>
     <sounds name="SFX">
       <sound>sound\sfx_click</sound>
@@ -24,6 +23,7 @@
       </sounds>
       <sounds name="inGame">
         <sound>sound\sfx_item</sound>
+        <sound>sound\sfx_skill</sound>
         <sounds name="Character">
           <sound>sound\sfx_chr_move</sound>
           <sound>sound\sfx_chr_attack1</sound>

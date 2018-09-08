@@ -177,6 +177,7 @@ else
 {
     count_down = alarm[0] div room_speed + 1;
 }
+
 draw_text_transformed(game_width / 2, game_height / 2, "-지구에 오신걸 환영합니다-#마지막 밤까지 지구인을 처치하는게 목표입니다!..." + string(count_down),0.5, 0.5, 0);
 </string>
           </argument>

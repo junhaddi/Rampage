@@ -47,6 +47,7 @@ for(var i = 0; i < argument0; i++)
         }
     }
 }
+
 attack_delay = 1;
 alarm[1] = attack_delayTime;
 

@@ -43,7 +43,8 @@ with(a)
     {
         instance_destroy();   
     }
-} 
+}
+
 attack_delay = 1;
 alarm[1] = attack_delayTime;
 

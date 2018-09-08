@@ -14,6 +14,7 @@ if (stick_dir != -1)
     {
         y += round(my);
     }
+    
     x = clamp(x, 64, room_width - 64);
     y = clamp(y, 64, room_height - 64);
 

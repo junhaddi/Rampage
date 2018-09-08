@@ -13,6 +13,7 @@ var rh = game_height / view_hview;
 /// Set Blend Mode
 draw_set_blend_mode(bm_subtract);
 
+
 /// Character
 with(obj_chr)
 {

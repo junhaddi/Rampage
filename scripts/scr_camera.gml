@@ -16,6 +16,7 @@ else
     camera_vwview = game_width * camera_zoom;
     camera_vhview = game_height * camera_zoom;
 }
+
 view_wview = floor(camera_vwview);
 view_hview = floor(camera_vhview);
  

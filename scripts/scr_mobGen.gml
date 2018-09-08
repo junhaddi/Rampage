@@ -6,6 +6,7 @@ if (instance_number(enemy) < argument0)
 {
     enemy_spawn = 1;
 }
+
 if (instance_number(enemy) >= argument0 || (cycle_day >= cycle_dayMax && cycle_alpha >= cycle_alphaMax))
 {
     enemy_spawn = 0;
